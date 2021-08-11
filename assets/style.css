@@ -1,0 +1,186 @@
+/*default*/
+
+/* General Styles*/
+
+body, h1, h2, p, ul, li, a {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  color: 222222;
+  background: #252525 ;
+  height: 1000px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.spotlight {
+  color: #FFB900;
+}
+
+/* Menu */
+
+.menu-bar {
+  width: 100%;
+  background-color: #252525f8;
+  border-bottom: solid #FFB900 1px;
+  position: fixed;
+  top: 0;
+ 
+}
+
+.container-menu-bar {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+
+.container-menu-bar nav, ul {
+  display: flex;
+}
+
+.container-menu-bar .logo {
+  color: #C5C5C5 ;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1.1em;
+  line-height: 17px;
+  letter-spacing: 2px;
+  margin: 16px 15px;
+
+}
+
+.contrast {
+  margin-right: 16px ;
+}
+.logo:hover {
+  color: #FFB900;
+}
+
+.container-menu-bar nav ul li a {
+  color: #C5C5C5 ;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1em;
+  line-height: 17px;
+  letter-spacing: 2px;
+  margin: 16px 10px;
+}
+
+.container-menu-bar nav ul li a:hover {
+  color: #FFB900;
+}
+
+/*Sobre*/
+
+
+.sobre {
+  margin-top: 80px;
+}
+.photo-profile {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.text-info {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  color: #C5C5C5;
+  padding:5;
+
+}
+
+.habilidades, p{
+    max-width: 790px;
+    margin: 0 auto;
+    text-align: center;
+    color: #C5C5C5;
+
+
+}
+
+
+
+.text-info h1 {
+  color: #C5C5C5;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 100;
+  padding-top: 20px;
+}
+
+.habilidades h1 {
+  color: #FFB900;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 100;
+  padding-top: 75px;
+}
+
+.habilidades h1::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 1px;
+  background: #FFB900;
+  margin: 10px auto;
+}
+
+/*portfolio*/
+
+.portfolio-container {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.portfolio-container h1{
+  color: #FFB900;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 100;
+  padding-top: 75px;
+}
+
+.portfolio-container h1::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 1px;
+  background: #FFB900;
+  margin: 10px auto;
+}
+
+/*Footer Bar*/
+
+.footer-bar {
+  border-top: solid #FFB900 1px;
+
+}
